@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/color">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="0dp"
+                        app:cardBackgroundColor="#a72f31"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Id user"
+                            android:fontFamily="@font/library3am"
+                            android:textColor="#f7b7b8"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="15dp"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="275dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginLeft="-45dp"
+                        android:layout_marginTop="10dp">
+                        <EditText
+                            android:id="@+id/u_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="57dp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginStart="20sp"
+                            android:width="150px"
+                            android:layout_marginTop="2dp"/>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="0dp"
+                        app:cardBackgroundColor="#a72f31"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nama"
+                            android:fontFamily="@font/library3am"
+                            android:textColor="#f7b7b8"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="15dp"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="275dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginLeft="-45dp"
+                        android:layout_marginTop="10dp">
+                        <EditText
+                            android:id="@+id/u_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="57dp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginStart="20sp"
+                            android:width="150px"
+                            android:layout_marginTop="2dp"/>
+                    </androidx.cardview.widget.CardView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="0dp"
+                        app:cardBackgroundColor="#a72f31"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:fontFamily="@font/library3am"
+                            android:textColor="#f7b7b8"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="15dp"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="275dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginLeft="-45dp"
+                        android:layout_marginTop="10dp">
+                        <EditText
+                            android:id="@+id/u_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="57dp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginStart="20sp"
+                            android:width="150px"
+                            android:layout_marginTop="2dp"/>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="0dp"
+                        app:cardBackgroundColor="#a72f31"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No HP"
+                            android:fontFamily="@font/library3am"
+                            android:textColor="#f7b7b8"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="15dp"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="275dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginLeft="-45dp"
+                        android:layout_marginTop="10dp">
+                        <EditText
+                            android:id="@+id/u_nohp"
+                            android:layout_width="match_parent"
+                            android:layout_height="57dp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginStart="20sp"
+                            android:width="150px"
+                            android:layout_marginTop="2dp"/>
+                    </androidx.cardview.widget.CardView>
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save"
+                    android:background="#a72f31"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"
+                    android:onClick="saveRecord"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View"
+                    android:onClick="viewRecord"
+                    android:background="#a72f31"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update"
+                    android:onClick="updateRecord"
+                    android:background="#a72f31"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delete"
+                    android:onClick="deleteRecord"
+                    android:background="#a72f31"
+                    android:textColor="#ffffff"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f7cdce">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="350sp"
+                    android:layout_margin="25dp">
+                    <ListView
+                        android:id="@+id/listView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="350sp"
+                        android:scrollbarSize="0dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
