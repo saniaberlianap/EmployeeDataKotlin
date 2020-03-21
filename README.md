@@ -1,0 +1,5 @@
+# EmployeeDataKotlin
+
+NAMA    : SANIA BERLIANA PUTRI - 
+NIM     : 183140714111001 - 
+KELAS   : TI / M4A
